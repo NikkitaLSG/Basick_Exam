@@ -6,6 +6,7 @@
     <VWEE  th:text="${VWE} "  />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css ">
+    <link rel="stylesheet" href="stile1.css ">
 </head>
 <body>
 <header>
@@ -40,17 +41,12 @@
     </div>
 </header>
 <main>
-    <style>
-.img{ width: 400px;
-    height: 400px;
-    }
-    </style>
     <div class="album py-5 bg-light">
         <div class="container">
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img src="https://im.kommersant.ru/Issues.photo/AUTO_News/2022/05/20/KMO_152985_08778_1_t218_111335.jpg" >
+                        <img src="https://im.kommersant.ru/Issues.photo/AUTO_News/2022/05/20/KMO_152985_08778_1_t218_111335.jpg" style="  width: 420px; height:280px";   >
                         <div class="card-body">
                             <p class="card-text">BMW AG рус. Бэ-Эм-Вэ́ — немецкий производитель автомобилей, мотоциклов, двигателей, а также велосипедов. Более 45 % акций принадлежит семье Квандт. Председателем правления компании является Оливер Ципсе. Главный дизайнер — Йозеф Кабан</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -65,7 +61,7 @@
                 </div>
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img src="https://avatars.mds.yandex.net/get-verba/787013/2a00000178734eca83e0e578a8c1639acd1d/cattouch" >
+                        <img src="https://avatars.mds.yandex.net/get-verba/787013/2a00000178734eca83e0e578a8c1639acd1d/cattouch" style="  width: 420px; height:280px"; >
                         <div class="card-body">
                             <p class="card-text">Volkswagen — немецкая автомобильная марка, одна из многих, принадлежащих концерну Volkswagen AG. Под этой маркой в 2019 году было реализовано 6 млн 620 тыс. автомобилей. Штаб-квартира — в Вольфсбурге. Там же находится и Автомузей Volkswagen</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -80,7 +76,7 @@
                 </div>
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img src="https://rg.ru/uploads/images/228/50/72/lamborghini_aventador_lp_780-4_ultimae.jpeg">
+                        <img src="https://rg.ru/uploads/images/228/50/72/lamborghini_aventador_lp_780-4_ultimae.jpeg" style=" width:420px ";>
                         <div class="card-body">
                             <p th:text="  ${title} + '!'" />
                             <div class="d-flex justify-content-between align-items-center">
@@ -95,7 +91,8 @@
                 </div>
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img src="https://motor.ru/imgs/2020/12/26/20/4427305/c405479bb752017d537cc5826727dd1b621d0953.jpg" alt="">
+
+                        <img src="https://motor.ru/imgs/2020/12/26/20/4427305/c405479bb752017d537cc5826727dd1b621d0953.jpg"  style="  width: 420px; height:280px";>
                         <div class="card-body">
                             <p class="card-text">Mercedes-Benz — торговая марка и одноимённая компания — производитель легковых автомобилей премиального класса, грузовых автомобилей, автобусов и других транспортных средств, входящая в состав немецкого концерна «Mercedes-Benz Group». Является одним из самых узнаваемых автомобильных брендов во всём мире</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -110,7 +107,7 @@
                 </div>
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img src="https://i.pinimg.com/736x/d0/e4/50/d0e450a49b4be43529ddca88eb424212.jpg" alt="">
+                        <img src="https://i.pinimg.com/736x/d0/e4/50/d0e450a49b4be43529ddca88eb424212.jpg" style="  width: 420px; height:280px";>
                         <div class="card-body">
                             <p class="card-text">Nissan Motor  — японский автопроизводитель, один из крупнейших в мире. Компания основана в 1933 году. По состоянию на 2010 год занимает 8-е место в мировом рейтинге автопроизводителей (3-е среди японских производителей, после Toyota и Honda) по версии международного института исследования рынка IHS Automotive[2]. Штаб-квартира с 2011 года находится в Иокогаме</p>
                             <div class="d-flex justify-content-between align-items-center">
@@ -125,9 +122,9 @@
                 </div>
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img src="https://kolesa-uploads.ru/-/9e4cf156-0994-4d19-a670-0decb0643ead/toyota-gr86-jp-1.jpg" alt="">
+                        <img src="https://kolesa-uploads.ru/-/9e4cf156-0994-4d19-a670-0decb0643ead/toyota-gr86-jp-1.jpg" style="  width: 420px; height:280px";>
                         <div class="card-body">
-                            <p class="card-text">Toyota Motor Corporation, кратко: Toyota [тоёта], по-русски чаще пишется Тойота — крупнейшая японская автомобилестроительная корпорация, также предоставляющая финансовые услуги и имеющая несколько дополнительных направлений в бизнесе</p>
+                            <p class="card-text">Toyota Motor Corporation, кратко: Toyota [тоёта], по-русски чаще пишется Тойота — крупнейшая японская автомобилестроительная корпорация, также предоставляющая финансовые услуги и имеющая несколько дополнительных направлений в бизнесе, на картинке представлена смая учшая из ныне имеющихся, а именно Toyta GR 86</p>
                             <div class="d-flex justify-content-between align-items-center">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>

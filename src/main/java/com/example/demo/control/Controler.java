@@ -10,7 +10,7 @@ public class Controler {
 
     @GetMapping("/")
     public String home( Model model) {
-        model.addAttribute("title", "Laborghini - итальянская компания, производитель дорогих спортивных автомобилей под маркой Lamborghini. Находится в коммуне Сант-Агата-Болоньезе, около Болоньи. Компания основана в 1963 году Ферруччо Ламборгини; на тот момент он уже был владельцем крупной компании по производству тракторов.");
+        model.addAttribute("title", "Laborghini - итальянская компания,производитель дорогих спортивных автомобилей под маркой Lamborghini.Компания основана в 1963 году Ферруччо Ламборгини; на тот момент он уже был владельцем крупной компании по производству тракторов.");
         return "home";
 
 
@@ -26,7 +26,7 @@ public class Controler {
     class Person{
 
         String name = "никита";        // имя
-        int age = 19;                 // возраст
+        int age = 19;                  // возраст
         void displayInfo(){
             System.out.printf("Name: %s \tAge: %d\n", name, age);
         }
