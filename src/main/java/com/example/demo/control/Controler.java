@@ -22,15 +22,13 @@ public class Controler {
 
 }
 //Описание класса
+
     class Person{
 
         String name = "никита";        // имя
-        int age = 19;            // возраст
+        int age = 19;                 // возраст
         void displayInfo(){
             System.out.printf("Name: %s \tAge: %d\n", name, age);
         }
     }
-
-
-
 }
